@@ -63,7 +63,7 @@ jobs:
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v4.6.2
       with:
-       name: jarToDonwload
+       name: jarToDownload
        path: target/*.jar
   docker_delivery:
     runs-on: ubuntu-latest
